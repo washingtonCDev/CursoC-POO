@@ -1,0 +1,7 @@
+D:\ProjetosC#\Seção 5 Curso\Construtores\Construtores\bin\Debug\Construtores.exe.config
+D:\ProjetosC#\Seção 5 Curso\Construtores\Construtores\bin\Debug\Construtores.exe
+D:\ProjetosC#\Seção 5 Curso\Construtores\Construtores\bin\Debug\Construtores.pdb
+D:\ProjetosC#\Seção 5 Curso\Construtores\Construtores\obj\Debug\Construtores.csproj.AssemblyReference.cache
+D:\ProjetosC#\Seção 5 Curso\Construtores\Construtores\obj\Debug\Construtores.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Seção 5 Curso\Construtores\Construtores\obj\Debug\Construtores.exe
+D:\ProjetosC#\Seção 5 Curso\Construtores\Construtores\obj\Debug\Construtores.pdb

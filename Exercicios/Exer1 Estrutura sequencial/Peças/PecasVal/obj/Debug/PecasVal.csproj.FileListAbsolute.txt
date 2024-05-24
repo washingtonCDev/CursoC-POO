@@ -1,0 +1,7 @@
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Peças\PecasVal\bin\Debug\PecasVal.exe.config
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Peças\PecasVal\bin\Debug\PecasVal.exe
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Peças\PecasVal\bin\Debug\PecasVal.pdb
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Peças\PecasVal\obj\Debug\PecasVal.csproj.AssemblyReference.cache
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Peças\PecasVal\obj\Debug\PecasVal.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Peças\PecasVal\obj\Debug\PecasVal.exe
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Peças\PecasVal\obj\Debug\PecasVal.pdb

@@ -1,0 +1,7 @@
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Raio\Raio\bin\Debug\Raio.exe.config
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Raio\Raio\bin\Debug\Raio.exe
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Raio\Raio\bin\Debug\Raio.pdb
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Raio\Raio\obj\Debug\Raio.csproj.AssemblyReference.cache
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Raio\Raio\obj\Debug\Raio.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Raio\Raio\obj\Debug\Raio.exe
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Raio\Raio\obj\Debug\Raio.pdb

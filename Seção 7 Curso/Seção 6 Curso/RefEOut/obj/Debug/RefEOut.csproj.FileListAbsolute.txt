@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\RefEOut\bin\Debug\RefEOut.exe.config
+C:\ProjetosC#\Seção 6 Curso\RefEOut\bin\Debug\RefEOut.exe
+C:\ProjetosC#\Seção 6 Curso\RefEOut\bin\Debug\RefEOut.pdb
+C:\ProjetosC#\Seção 6 Curso\RefEOut\obj\Debug\RefEOut.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\RefEOut\obj\Debug\RefEOut.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\RefEOut\obj\Debug\RefEOut.exe
+C:\ProjetosC#\Seção 6 Curso\RefEOut\obj\Debug\RefEOut.pdb

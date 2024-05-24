@@ -1,0 +1,7 @@
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\CalcTotal\Calctotal\bin\Debug\Calctotal.exe.config
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\CalcTotal\Calctotal\bin\Debug\Calctotal.exe
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\CalcTotal\Calctotal\bin\Debug\Calctotal.pdb
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\CalcTotal\Calctotal\obj\Debug\Calctotal.csproj.AssemblyReference.cache
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\CalcTotal\Calctotal\obj\Debug\Calctotal.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\CalcTotal\Calctotal\obj\Debug\Calctotal.exe
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\CalcTotal\Calctotal\obj\Debug\Calctotal.pdb

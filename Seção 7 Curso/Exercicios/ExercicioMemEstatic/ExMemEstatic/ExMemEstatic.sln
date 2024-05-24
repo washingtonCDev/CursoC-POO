@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExMemEstatic", "ExMemEstatic.csproj", "{84031BE7-ACD1-4DD3-9AED-9A218E9D918F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84031BE7-ACD1-4DD3-9AED-9A218E9D918F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84031BE7-ACD1-4DD3-9AED-9A218E9D918F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84031BE7-ACD1-4DD3-9AED-9A218E9D918F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84031BE7-ACD1-4DD3-9AED-9A218E9D918F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C924AD51-444A-4279-ADE1-86E6134305D1}
+	EndGlobalSection
+EndGlobal

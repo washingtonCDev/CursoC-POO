@@ -1,0 +1,7 @@
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EStCondicionalIFELSE\estifelse\bin\Debug\estifelse.exe.config
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EStCondicionalIFELSE\estifelse\bin\Debug\estifelse.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EStCondicionalIFELSE\estifelse\bin\Debug\estifelse.pdb
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EStCondicionalIFELSE\estifelse\obj\Debug\estifelse.csproj.AssemblyReference.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EStCondicionalIFELSE\estifelse\obj\Debug\estifelse.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EStCondicionalIFELSE\estifelse\obj\Debug\estifelse.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EStCondicionalIFELSE\estifelse\obj\Debug\estifelse.pdb

@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\Matrizes\Matrizes\bin\Debug\Matrizes.exe.config
+C:\ProjetosC#\Seção 6 Curso\Matrizes\Matrizes\bin\Debug\Matrizes.exe
+C:\ProjetosC#\Seção 6 Curso\Matrizes\Matrizes\bin\Debug\Matrizes.pdb
+C:\ProjetosC#\Seção 6 Curso\Matrizes\Matrizes\obj\Debug\Matrizes.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\Matrizes\Matrizes\obj\Debug\Matrizes.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\Matrizes\Matrizes\obj\Debug\Matrizes.exe
+C:\ProjetosC#\Seção 6 Curso\Matrizes\Matrizes\obj\Debug\Matrizes.pdb

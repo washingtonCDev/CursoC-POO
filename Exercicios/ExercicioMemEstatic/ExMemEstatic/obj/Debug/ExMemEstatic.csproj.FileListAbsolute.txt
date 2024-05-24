@@ -1,0 +1,7 @@
+D:\ProjetosC#\Exercicios\ExercicioMemEstatic\ExMemEstatic\obj\Debug\ExMemEstatic.csproj.AssemblyReference.cache
+D:\ProjetosC#\Exercicios\ExercicioMemEstatic\ExMemEstatic\obj\Debug\ExMemEstatic.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Exercicios\ExercicioMemEstatic\ExMemEstatic\bin\Debug\ExMemEstatic.exe.config
+D:\ProjetosC#\Exercicios\ExercicioMemEstatic\ExMemEstatic\bin\Debug\ExMemEstatic.exe
+D:\ProjetosC#\Exercicios\ExercicioMemEstatic\ExMemEstatic\bin\Debug\ExMemEstatic.pdb
+D:\ProjetosC#\Exercicios\ExercicioMemEstatic\ExMemEstatic\obj\Debug\ExMemEstatic.exe
+D:\ProjetosC#\Exercicios\ExercicioMemEstatic\ExMemEstatic\obj\Debug\ExMemEstatic.pdb

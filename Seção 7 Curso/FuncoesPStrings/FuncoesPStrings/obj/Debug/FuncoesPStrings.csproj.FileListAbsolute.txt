@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 7 Curso\FuncoesPStrings\FuncoesPStrings\bin\Debug\FuncoesPStrings.exe.config
+C:\ProjetosC#\Seção 7 Curso\FuncoesPStrings\FuncoesPStrings\bin\Debug\FuncoesPStrings.exe
+C:\ProjetosC#\Seção 7 Curso\FuncoesPStrings\FuncoesPStrings\bin\Debug\FuncoesPStrings.pdb
+C:\ProjetosC#\Seção 7 Curso\FuncoesPStrings\FuncoesPStrings\obj\Debug\FuncoesPStrings.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 7 Curso\FuncoesPStrings\FuncoesPStrings\obj\Debug\FuncoesPStrings.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 7 Curso\FuncoesPStrings\FuncoesPStrings\obj\Debug\FuncoesPStrings.exe
+C:\ProjetosC#\Seção 7 Curso\FuncoesPStrings\FuncoesPStrings\obj\Debug\FuncoesPStrings.pdb

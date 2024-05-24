@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioLista\ExercicioLista\bin\Debug\ExercicioLista.exe.config
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioLista\ExercicioLista\bin\Debug\ExercicioLista.exe
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioLista\ExercicioLista\bin\Debug\ExercicioLista.pdb
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioLista\ExercicioLista\obj\Debug\ExercicioLista.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioLista\ExercicioLista\obj\Debug\ExercicioLista.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioLista\ExercicioLista\obj\Debug\ExercicioLista.exe
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioLista\ExercicioLista\obj\Debug\ExercicioLista.pdb

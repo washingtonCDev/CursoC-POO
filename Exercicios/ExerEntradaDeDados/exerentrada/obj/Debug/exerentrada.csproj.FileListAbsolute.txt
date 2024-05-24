@@ -1,0 +1,7 @@
+D:\ProjetosC#\Exercicios\ExerEntradaDeDados\exerentrada\obj\Debug\exerentrada.csproj.AssemblyReference.cache
+D:\ProjetosC#\Exercicios\ExerEntradaDeDados\exerentrada\obj\Debug\exerentrada.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Exercicios\ExerEntradaDeDados\exerentrada\bin\Debug\exerentrada.exe.config
+D:\ProjetosC#\Exercicios\ExerEntradaDeDados\exerentrada\bin\Debug\exerentrada.exe
+D:\ProjetosC#\Exercicios\ExerEntradaDeDados\exerentrada\bin\Debug\exerentrada.pdb
+D:\ProjetosC#\Exercicios\ExerEntradaDeDados\exerentrada\obj\Debug\exerentrada.exe
+D:\ProjetosC#\Exercicios\ExerEntradaDeDados\exerentrada\obj\Debug\exerentrada.pdb

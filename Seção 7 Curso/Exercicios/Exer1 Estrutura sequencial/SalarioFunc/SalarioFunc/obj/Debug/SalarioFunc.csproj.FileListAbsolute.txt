@@ -1,0 +1,7 @@
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\SalarioFunc\SalarioFunc\bin\Debug\SalarioFunc.exe.config
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\SalarioFunc\SalarioFunc\bin\Debug\SalarioFunc.exe
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\SalarioFunc\SalarioFunc\bin\Debug\SalarioFunc.pdb
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\SalarioFunc\SalarioFunc\obj\Debug\SalarioFunc.csproj.AssemblyReference.cache
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\SalarioFunc\SalarioFunc\obj\Debug\SalarioFunc.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\SalarioFunc\SalarioFunc\obj\Debug\SalarioFunc.exe
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\SalarioFunc\SalarioFunc\obj\Debug\SalarioFunc.pdb

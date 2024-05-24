@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 5 Curso\AutoProp\bin\Debug\AutoProp.exe.config
+C:\ProjetosC#\Seção 5 Curso\AutoProp\bin\Debug\AutoProp.exe
+C:\ProjetosC#\Seção 5 Curso\AutoProp\bin\Debug\AutoProp.pdb
+C:\ProjetosC#\Seção 5 Curso\AutoProp\obj\Debug\AutoProp.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 5 Curso\AutoProp\obj\Debug\AutoProp.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 5 Curso\AutoProp\obj\Debug\AutoProp.exe
+C:\ProjetosC#\Seção 5 Curso\AutoProp\obj\Debug\AutoProp.pdb

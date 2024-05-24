@@ -1,0 +1,7 @@
+D:\ProjetosC#\Exercicios\Exerseção4\UML1\ENTSAIUML\bin\Debug\ENTSAIUML.exe.config
+D:\ProjetosC#\Exercicios\Exerseção4\UML1\ENTSAIUML\bin\Debug\ENTSAIUML.exe
+D:\ProjetosC#\Exercicios\Exerseção4\UML1\ENTSAIUML\bin\Debug\ENTSAIUML.pdb
+D:\ProjetosC#\Exercicios\Exerseção4\UML1\ENTSAIUML\obj\Debug\ENTSAIUML.csproj.AssemblyReference.cache
+D:\ProjetosC#\Exercicios\Exerseção4\UML1\ENTSAIUML\obj\Debug\ENTSAIUML.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Exercicios\Exerseção4\UML1\ENTSAIUML\obj\Debug\ENTSAIUML.exe
+D:\ProjetosC#\Exercicios\Exerseção4\UML1\ENTSAIUML\obj\Debug\ENTSAIUML.pdb

@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\DesalocMemoria\bin\Debug\DesalocMemoria.exe.config
+C:\ProjetosC#\Seção 6 Curso\DesalocMemoria\bin\Debug\DesalocMemoria.exe
+C:\ProjetosC#\Seção 6 Curso\DesalocMemoria\bin\Debug\DesalocMemoria.pdb
+C:\ProjetosC#\Seção 6 Curso\DesalocMemoria\obj\Debug\DesalocMemoria.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\DesalocMemoria\obj\Debug\DesalocMemoria.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\DesalocMemoria\obj\Debug\DesalocMemoria.exe
+C:\ProjetosC#\Seção 6 Curso\DesalocMemoria\obj\Debug\DesalocMemoria.pdb

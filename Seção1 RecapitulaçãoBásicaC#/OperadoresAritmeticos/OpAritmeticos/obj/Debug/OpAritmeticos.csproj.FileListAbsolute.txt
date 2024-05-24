@@ -1,0 +1,7 @@
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OperadoresAritmeticos\OpAritmeticos\bin\Debug\OpAritmeticos.exe.config
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OperadoresAritmeticos\OpAritmeticos\bin\Debug\OpAritmeticos.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OperadoresAritmeticos\OpAritmeticos\bin\Debug\OpAritmeticos.pdb
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OperadoresAritmeticos\OpAritmeticos\obj\Debug\OpAritmeticos.csproj.AssemblyReference.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OperadoresAritmeticos\OpAritmeticos\obj\Debug\OpAritmeticos.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OperadoresAritmeticos\OpAritmeticos\obj\Debug\OpAritmeticos.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OperadoresAritmeticos\OpAritmeticos\obj\Debug\OpAritmeticos.pdb

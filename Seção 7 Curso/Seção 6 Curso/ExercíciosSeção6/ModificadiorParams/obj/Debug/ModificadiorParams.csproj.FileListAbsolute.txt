@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ModificadiorParams\bin\Debug\ModificadiorParams.exe.config
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ModificadiorParams\bin\Debug\ModificadiorParams.exe
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ModificadiorParams\bin\Debug\ModificadiorParams.pdb
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ModificadiorParams\obj\Debug\ModificadiorParams.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ModificadiorParams\obj\Debug\ModificadiorParams.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ModificadiorParams\obj\Debug\ModificadiorParams.exe
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ModificadiorParams\obj\Debug\ModificadiorParams.pdb

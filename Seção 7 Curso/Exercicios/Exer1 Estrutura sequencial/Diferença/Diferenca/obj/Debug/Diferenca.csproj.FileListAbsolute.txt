@@ -1,0 +1,7 @@
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Diferença\Diferenca\bin\Debug\Diferenca.exe.config
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Diferença\Diferenca\bin\Debug\Diferenca.exe
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Diferença\Diferenca\bin\Debug\Diferenca.pdb
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Diferença\Diferenca\obj\Debug\Diferenca.csproj.AssemblyReference.cache
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Diferença\Diferenca\obj\Debug\Diferenca.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Diferença\Diferenca\obj\Debug\Diferenca.exe
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Diferença\Diferenca\obj\Debug\Diferenca.pdb

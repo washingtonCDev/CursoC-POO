@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\ListasPt1\bin\Debug\ListasPt1.exe.config
+C:\ProjetosC#\Seção 6 Curso\ListasPt1\bin\Debug\ListasPt1.exe
+C:\ProjetosC#\Seção 6 Curso\ListasPt1\bin\Debug\ListasPt1.pdb
+C:\ProjetosC#\Seção 6 Curso\ListasPt1\obj\Debug\ListasPt1.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\ListasPt1\obj\Debug\ListasPt1.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\ListasPt1\obj\Debug\ListasPt1.exe
+C:\ProjetosC#\Seção 6 Curso\ListasPt1\obj\Debug\ListasPt1.pdb

@@ -1,0 +1,7 @@
+D:\ProjetosC#\Seção4 Curso\ProblemaSemOO\ProbSemOO\obj\Debug\ProbSemOO.csproj.AssemblyReference.cache
+D:\ProjetosC#\Seção4 Curso\ProblemaSemOO\ProbSemOO\obj\Debug\ProbSemOO.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Seção4 Curso\ProblemaSemOO\ProbSemOO\bin\Debug\ProbSemOO.exe.config
+D:\ProjetosC#\Seção4 Curso\ProblemaSemOO\ProbSemOO\bin\Debug\ProbSemOO.exe
+D:\ProjetosC#\Seção4 Curso\ProblemaSemOO\ProbSemOO\bin\Debug\ProbSemOO.pdb
+D:\ProjetosC#\Seção4 Curso\ProblemaSemOO\ProbSemOO\obj\Debug\ProbSemOO.exe
+D:\ProjetosC#\Seção4 Curso\ProblemaSemOO\ProbSemOO\obj\Debug\ProbSemOO.pdb

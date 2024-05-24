@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\tipsreferenciavalor\bin\Debug\tipsreferenciavalor.exe.config
+C:\ProjetosC#\Seção 6 Curso\tipsreferenciavalor\bin\Debug\tipsreferenciavalor.exe
+C:\ProjetosC#\Seção 6 Curso\tipsreferenciavalor\bin\Debug\tipsreferenciavalor.pdb
+C:\ProjetosC#\Seção 6 Curso\tipsreferenciavalor\obj\Debug\tipsreferenciavalor.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\tipsreferenciavalor\obj\Debug\tipsreferenciavalor.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\tipsreferenciavalor\obj\Debug\tipsreferenciavalor.exe
+C:\ProjetosC#\Seção 6 Curso\tipsreferenciavalor\obj\Debug\tipsreferenciavalor.pdb

@@ -1,0 +1,7 @@
+D:\ProjetosC#\RecapitulaçãoBásicaC#\proj1\bin\Debug\proj1.exe.config
+D:\ProjetosC#\RecapitulaçãoBásicaC#\proj1\bin\Debug\proj1.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\proj1\bin\Debug\proj1.pdb
+D:\ProjetosC#\RecapitulaçãoBásicaC#\proj1\obj\Debug\proj1.csproj.AssemblyReference.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\proj1\obj\Debug\proj1.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\proj1\obj\Debug\proj1.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\proj1\obj\Debug\proj1.pdb

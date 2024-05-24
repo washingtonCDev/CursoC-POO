@@ -1,0 +1,7 @@
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entradadedados2\bin\Debug\Entradadedados2.exe.config
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entradadedados2\bin\Debug\Entradadedados2.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entradadedados2\bin\Debug\Entradadedados2.pdb
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entradadedados2\obj\Debug\Entradadedados2.csproj.AssemblyReference.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entradadedados2\obj\Debug\Entradadedados2.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entradadedados2\obj\Debug\Entradadedados2.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entradadedados2\obj\Debug\Entradadedados2.pdb

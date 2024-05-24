@@ -1,0 +1,7 @@
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstRepetWhile\EstRepWhile\bin\Debug\EstRepWhile.exe.config
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstRepetWhile\EstRepWhile\bin\Debug\EstRepWhile.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstRepetWhile\EstRepWhile\bin\Debug\EstRepWhile.pdb
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstRepetWhile\EstRepWhile\obj\Debug\EstRepWhile.csproj.AssemblyReference.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstRepetWhile\EstRepWhile\obj\Debug\EstRepWhile.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstRepetWhile\EstRepWhile\obj\Debug\EstRepWhile.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstRepetWhile\EstRepWhile\obj\Debug\EstRepWhile.pdb

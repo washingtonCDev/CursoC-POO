@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalavraVar", "PalavraVar\PalavraVar.csproj", "{A67B1E62-3F51-454A-AE8B-FC9CBF4E6E17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A67B1E62-3F51-454A-AE8B-FC9CBF4E6E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67B1E62-3F51-454A-AE8B-FC9CBF4E6E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67B1E62-3F51-454A-AE8B-FC9CBF4E6E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67B1E62-3F51-454A-AE8B-FC9CBF4E6E17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83B16E71-D3E0-4ECD-8A69-2180226E17F8}
+	EndGlobalSection
+EndGlobal

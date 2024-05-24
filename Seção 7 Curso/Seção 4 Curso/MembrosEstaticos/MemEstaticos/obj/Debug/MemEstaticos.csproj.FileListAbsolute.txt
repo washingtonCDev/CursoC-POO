@@ -1,0 +1,7 @@
+D:\ProjetosC#\MembrosEstaticos\MemEstaticos\bin\Debug\MemEstaticos.exe.config
+D:\ProjetosC#\MembrosEstaticos\MemEstaticos\bin\Debug\MemEstaticos.exe
+D:\ProjetosC#\MembrosEstaticos\MemEstaticos\bin\Debug\MemEstaticos.pdb
+D:\ProjetosC#\MembrosEstaticos\MemEstaticos\obj\Debug\MemEstaticos.csproj.AssemblyReference.cache
+D:\ProjetosC#\MembrosEstaticos\MemEstaticos\obj\Debug\MemEstaticos.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\MembrosEstaticos\MemEstaticos\obj\Debug\MemEstaticos.exe
+D:\ProjetosC#\MembrosEstaticos\MemEstaticos\obj\Debug\MemEstaticos.pdb

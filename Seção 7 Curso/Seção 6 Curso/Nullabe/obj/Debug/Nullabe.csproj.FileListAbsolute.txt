@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\Nullabe\bin\Debug\Nullabe.exe.config
+C:\ProjetosC#\Seção 6 Curso\Nullabe\bin\Debug\Nullabe.exe
+C:\ProjetosC#\Seção 6 Curso\Nullabe\bin\Debug\Nullabe.pdb
+C:\ProjetosC#\Seção 6 Curso\Nullabe\obj\Debug\Nullabe.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\Nullabe\obj\Debug\Nullabe.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\Nullabe\obj\Debug\Nullabe.exe
+C:\ProjetosC#\Seção 6 Curso\Nullabe\obj\Debug\Nullabe.pdb

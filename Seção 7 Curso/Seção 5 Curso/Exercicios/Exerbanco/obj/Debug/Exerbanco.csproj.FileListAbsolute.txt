@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exerbanco\obj\Debug\Exerbanco.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exerbanco\obj\Debug\Exerbanco.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exerbanco\bin\Debug\Exerbanco.exe.config
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exerbanco\bin\Debug\Exerbanco.exe
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exerbanco\bin\Debug\Exerbanco.pdb
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exerbanco\obj\Debug\Exerbanco.exe
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exerbanco\obj\Debug\Exerbanco.pdb

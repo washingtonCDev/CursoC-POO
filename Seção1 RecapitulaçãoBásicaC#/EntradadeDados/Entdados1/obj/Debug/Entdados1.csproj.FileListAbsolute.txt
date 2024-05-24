@@ -1,0 +1,7 @@
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entdados1\obj\Debug\Entdados1.csproj.AssemblyReference.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entdados1\obj\Debug\Entdados1.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entdados1\bin\Debug\Entdados1.exe.config
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entdados1\bin\Debug\Entdados1.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entdados1\bin\Debug\Entdados1.pdb
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entdados1\obj\Debug\Entdados1.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EntradadeDados\Entdados1\obj\Debug\Entdados1.pdb

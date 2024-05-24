@@ -1,0 +1,7 @@
+D:\ProjetosC#\RecapitulaçãoBásicaC#\saidadedados\exerSaidadedados\bin\Debug\exerSaidadedados.exe.config
+D:\ProjetosC#\RecapitulaçãoBásicaC#\saidadedados\exerSaidadedados\bin\Debug\exerSaidadedados.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\saidadedados\exerSaidadedados\bin\Debug\exerSaidadedados.pdb
+D:\ProjetosC#\RecapitulaçãoBásicaC#\saidadedados\exerSaidadedados\obj\Debug\exerSaidadedados.csproj.AssemblyReference.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\saidadedados\exerSaidadedados\obj\Debug\exerSaidadedados.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\saidadedados\exerSaidadedados\obj\Debug\exerSaidadedados.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\saidadedados\exerSaidadedados\obj\Debug\exerSaidadedados.pdb

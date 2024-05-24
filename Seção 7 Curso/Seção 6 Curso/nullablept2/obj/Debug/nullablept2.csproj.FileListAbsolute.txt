@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\nullablept2\bin\Debug\nullablept2.exe.config
+C:\ProjetosC#\Seção 6 Curso\nullablept2\bin\Debug\nullablept2.exe
+C:\ProjetosC#\Seção 6 Curso\nullablept2\bin\Debug\nullablept2.pdb
+C:\ProjetosC#\Seção 6 Curso\nullablept2\obj\Debug\nullablept2.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\nullablept2\obj\Debug\nullablept2.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\nullablept2\obj\Debug\nullablept2.exe
+C:\ProjetosC#\Seção 6 Curso\nullablept2\obj\Debug\nullablept2.pdb

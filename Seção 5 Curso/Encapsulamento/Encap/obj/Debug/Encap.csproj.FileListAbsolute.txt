@@ -1,0 +1,14 @@
+D:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\bin\Debug\Encap.exe.config
+D:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\bin\Debug\Encap.exe
+D:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\bin\Debug\Encap.pdb
+D:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\obj\Debug\Encap.csproj.AssemblyReference.cache
+D:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\obj\Debug\Encap.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\obj\Debug\Encap.exe
+D:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\obj\Debug\Encap.pdb
+C:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\bin\Debug\Encap.exe.config
+C:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\bin\Debug\Encap.exe
+C:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\bin\Debug\Encap.pdb
+C:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\obj\Debug\Encap.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\obj\Debug\Encap.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\obj\Debug\Encap.exe
+C:\ProjetosC#\Seção 5 Curso\Encapsulamento\Encap\obj\Debug\Encap.pdb

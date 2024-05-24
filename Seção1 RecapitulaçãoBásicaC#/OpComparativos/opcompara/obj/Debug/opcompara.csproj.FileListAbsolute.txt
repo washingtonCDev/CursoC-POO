@@ -1,0 +1,7 @@
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OpComparativos\opcompara\bin\Debug\opcompara.exe.config
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OpComparativos\opcompara\bin\Debug\opcompara.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OpComparativos\opcompara\bin\Debug\opcompara.pdb
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OpComparativos\opcompara\obj\Debug\opcompara.csproj.AssemblyReference.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OpComparativos\opcompara\obj\Debug\opcompara.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OpComparativos\opcompara\obj\Debug\opcompara.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\OpComparativos\opcompara\obj\Debug\opcompara.pdb

@@ -1,0 +1,7 @@
+D:\ProjetosC#\RecapitulaçãoBásicaC#\operadoresDeAtribuicao\OpdeAtribuicao\obj\Debug\OpdeAtribuicao.csproj.AssemblyReference.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\operadoresDeAtribuicao\OpdeAtribuicao\obj\Debug\OpdeAtribuicao.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\operadoresDeAtribuicao\OpdeAtribuicao\bin\Debug\OpdeAtribuicao.exe.config
+D:\ProjetosC#\RecapitulaçãoBásicaC#\operadoresDeAtribuicao\OpdeAtribuicao\bin\Debug\OpdeAtribuicao.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\operadoresDeAtribuicao\OpdeAtribuicao\bin\Debug\OpdeAtribuicao.pdb
+D:\ProjetosC#\RecapitulaçãoBásicaC#\operadoresDeAtribuicao\OpdeAtribuicao\obj\Debug\OpdeAtribuicao.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\operadoresDeAtribuicao\OpdeAtribuicao\obj\Debug\OpdeAtribuicao.pdb

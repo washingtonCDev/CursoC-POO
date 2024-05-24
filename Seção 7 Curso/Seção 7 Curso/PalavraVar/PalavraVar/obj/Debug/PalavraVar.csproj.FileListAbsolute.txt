@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 7 Curso\PalavraVar\PalavraVar\bin\Debug\PalavraVar.exe.config
+C:\ProjetosC#\Seção 7 Curso\PalavraVar\PalavraVar\bin\Debug\PalavraVar.exe
+C:\ProjetosC#\Seção 7 Curso\PalavraVar\PalavraVar\bin\Debug\PalavraVar.pdb
+C:\ProjetosC#\Seção 7 Curso\PalavraVar\PalavraVar\obj\Debug\PalavraVar.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 7 Curso\PalavraVar\PalavraVar\obj\Debug\PalavraVar.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 7 Curso\PalavraVar\PalavraVar\obj\Debug\PalavraVar.exe
+C:\ProjetosC#\Seção 7 Curso\PalavraVar\PalavraVar\obj\Debug\PalavraVar.pdb

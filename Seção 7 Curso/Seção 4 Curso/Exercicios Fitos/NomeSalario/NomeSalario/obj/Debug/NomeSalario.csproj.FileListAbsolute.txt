@@ -1,0 +1,7 @@
+D:\ProjetosC#\Exercicios\Exerseção4\NomeSalario\NomeSalario\bin\Debug\NomeSalario.exe.config
+D:\ProjetosC#\Exercicios\Exerseção4\NomeSalario\NomeSalario\bin\Debug\NomeSalario.exe
+D:\ProjetosC#\Exercicios\Exerseção4\NomeSalario\NomeSalario\bin\Debug\NomeSalario.pdb
+D:\ProjetosC#\Exercicios\Exerseção4\NomeSalario\NomeSalario\obj\Debug\NomeSalario.csproj.AssemblyReference.cache
+D:\ProjetosC#\Exercicios\Exerseção4\NomeSalario\NomeSalario\obj\Debug\NomeSalario.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Exercicios\Exerseção4\NomeSalario\NomeSalario\obj\Debug\NomeSalario.exe
+D:\ProjetosC#\Exercicios\Exerseção4\NomeSalario\NomeSalario\obj\Debug\NomeSalario.pdb

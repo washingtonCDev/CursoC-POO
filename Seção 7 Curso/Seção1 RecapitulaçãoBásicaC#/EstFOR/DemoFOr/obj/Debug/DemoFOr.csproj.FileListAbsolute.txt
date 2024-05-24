@@ -1,0 +1,7 @@
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstFOR\DemoFOr\bin\Debug\DemoFOr.exe.config
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstFOR\DemoFOr\bin\Debug\DemoFOr.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstFOR\DemoFOr\bin\Debug\DemoFOr.pdb
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstFOR\DemoFOr\obj\Debug\DemoFOr.csproj.AssemblyReference.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstFOR\DemoFOr\obj\Debug\DemoFOr.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstFOR\DemoFOr\obj\Debug\DemoFOr.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\EstFOR\DemoFOr\obj\Debug\DemoFOr.pdb

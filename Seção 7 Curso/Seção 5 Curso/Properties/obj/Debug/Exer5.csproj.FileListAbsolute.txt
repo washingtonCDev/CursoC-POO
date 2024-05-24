@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exer5\bin\Debug\Exer5.exe.config
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exer5\bin\Debug\Exer5.exe
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exer5\bin\Debug\Exer5.pdb
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exer5\obj\Debug\Exer5.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exer5\obj\Debug\Exer5.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exer5\obj\Debug\Exer5.exe
+C:\ProjetosC#\Seção 5 Curso\Exercicios\Exer5\obj\Debug\Exer5.pdb

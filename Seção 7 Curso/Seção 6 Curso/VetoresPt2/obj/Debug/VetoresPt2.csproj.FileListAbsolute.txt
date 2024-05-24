@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\VetoresPt2\bin\Debug\VetoresPt2.exe.config
+C:\ProjetosC#\Seção 6 Curso\VetoresPt2\bin\Debug\VetoresPt2.exe
+C:\ProjetosC#\Seção 6 Curso\VetoresPt2\bin\Debug\VetoresPt2.pdb
+C:\ProjetosC#\Seção 6 Curso\VetoresPt2\obj\Debug\VetoresPt2.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\VetoresPt2\obj\Debug\VetoresPt2.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\VetoresPt2\obj\Debug\VetoresPt2.exe
+C:\ProjetosC#\Seção 6 Curso\VetoresPt2\obj\Debug\VetoresPt2.pdb

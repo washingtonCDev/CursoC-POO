@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 7 Curso\switchcase-alternativa\switchcase-alternativa\obj\Debug\switchcase-alternativa.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 7 Curso\switchcase-alternativa\switchcase-alternativa\obj\Debug\switchcase-alternativa.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 7 Curso\switchcase-alternativa\switchcase-alternativa\bin\Debug\switchcase-alternativa.exe.config
+C:\ProjetosC#\Seção 7 Curso\switchcase-alternativa\switchcase-alternativa\bin\Debug\switchcase-alternativa.exe
+C:\ProjetosC#\Seção 7 Curso\switchcase-alternativa\switchcase-alternativa\bin\Debug\switchcase-alternativa.pdb
+C:\ProjetosC#\Seção 7 Curso\switchcase-alternativa\switchcase-alternativa\obj\Debug\switchcase-alternativa.exe
+C:\ProjetosC#\Seção 7 Curso\switchcase-alternativa\switchcase-alternativa\obj\Debug\switchcase-alternativa.pdb

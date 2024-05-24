@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\Laco_Foreach\bin\Debug\Laco_Foreach.exe.config
+C:\ProjetosC#\Seção 6 Curso\Laco_Foreach\bin\Debug\Laco_Foreach.exe
+C:\ProjetosC#\Seção 6 Curso\Laco_Foreach\bin\Debug\Laco_Foreach.pdb
+C:\ProjetosC#\Seção 6 Curso\Laco_Foreach\obj\Debug\Laco_Foreach.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\Laco_Foreach\obj\Debug\Laco_Foreach.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\Laco_Foreach\obj\Debug\Laco_Foreach.exe
+C:\ProjetosC#\Seção 6 Curso\Laco_Foreach\obj\Debug\Laco_Foreach.pdb

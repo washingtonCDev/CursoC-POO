@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 7 Curso\CondTernária-opciional\CondTernária-opciional\bin\Debug\CondTernária-opciional.exe.config
+C:\ProjetosC#\Seção 7 Curso\CondTernária-opciional\CondTernária-opciional\bin\Debug\CondTernária-opciional.exe
+C:\ProjetosC#\Seção 7 Curso\CondTernária-opciional\CondTernária-opciional\bin\Debug\CondTernária-opciional.pdb
+C:\ProjetosC#\Seção 7 Curso\CondTernária-opciional\CondTernária-opciional\obj\Debug\CondTernária-opciional.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 7 Curso\CondTernária-opciional\CondTernária-opciional\obj\Debug\CondTernária-opciional.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 7 Curso\CondTernária-opciional\CondTernária-opciional\obj\Debug\CondTernária-opciional.exe
+C:\ProjetosC#\Seção 7 Curso\CondTernária-opciional\CondTernária-opciional\obj\Debug\CondTernária-opciional.pdb

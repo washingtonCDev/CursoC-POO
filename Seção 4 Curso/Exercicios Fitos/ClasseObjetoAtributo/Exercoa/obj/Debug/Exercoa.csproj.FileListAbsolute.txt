@@ -1,0 +1,7 @@
+D:\ProjetosC#\Exercicios\Exerseção4\ClasseObjetoAtributo\Exercoa\obj\Debug\Exercoa.csproj.AssemblyReference.cache
+D:\ProjetosC#\Exercicios\Exerseção4\ClasseObjetoAtributo\Exercoa\obj\Debug\Exercoa.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Exercicios\Exerseção4\ClasseObjetoAtributo\Exercoa\bin\Debug\Exercoa.exe.config
+D:\ProjetosC#\Exercicios\Exerseção4\ClasseObjetoAtributo\Exercoa\bin\Debug\Exercoa.exe
+D:\ProjetosC#\Exercicios\Exerseção4\ClasseObjetoAtributo\Exercoa\bin\Debug\Exercoa.pdb
+D:\ProjetosC#\Exercicios\Exerseção4\ClasseObjetoAtributo\Exercoa\obj\Debug\Exercoa.exe
+D:\ProjetosC#\Exercicios\Exerseção4\ClasseObjetoAtributo\Exercoa\obj\Debug\Exercoa.pdb

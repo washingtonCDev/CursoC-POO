@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\ListaPt2\ListaPt2\bin\Debug\ListaPt2.exe.config
+C:\ProjetosC#\Seção 6 Curso\ListaPt2\ListaPt2\bin\Debug\ListaPt2.exe
+C:\ProjetosC#\Seção 6 Curso\ListaPt2\ListaPt2\bin\Debug\ListaPt2.pdb
+C:\ProjetosC#\Seção 6 Curso\ListaPt2\ListaPt2\obj\Debug\ListaPt2.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\ListaPt2\ListaPt2\obj\Debug\ListaPt2.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\ListaPt2\ListaPt2\obj\Debug\ListaPt2.exe
+C:\ProjetosC#\Seção 6 Curso\ListaPt2\ListaPt2\obj\Debug\ListaPt2.pdb

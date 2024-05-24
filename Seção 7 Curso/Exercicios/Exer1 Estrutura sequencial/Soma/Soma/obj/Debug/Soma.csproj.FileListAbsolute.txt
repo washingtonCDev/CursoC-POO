@@ -1,0 +1,7 @@
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Soma\Soma\bin\Debug\Soma.exe.config
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Soma\Soma\bin\Debug\Soma.exe
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Soma\Soma\bin\Debug\Soma.pdb
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Soma\Soma\obj\Debug\Soma.csproj.AssemblyReference.cache
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Soma\Soma\obj\Debug\Soma.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Soma\Soma\obj\Debug\Soma.exe
+D:\ProjetosC#\Exercicios\Exer1 Estrutura sequencial\Soma\Soma\obj\Debug\Soma.pdb

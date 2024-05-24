@@ -1,0 +1,13 @@
+# Ignorar diretórios e arquivos específicos do Visual Studio
+.vs/
+*.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.pdb
+*.obj
+*.exe
+*.dll
+*.log

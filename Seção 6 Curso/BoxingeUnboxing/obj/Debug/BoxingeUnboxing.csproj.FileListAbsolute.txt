@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\BoxingeUnboxing\bin\Debug\BoxingeUnboxing.exe.config
+C:\ProjetosC#\Seção 6 Curso\BoxingeUnboxing\bin\Debug\BoxingeUnboxing.exe
+C:\ProjetosC#\Seção 6 Curso\BoxingeUnboxing\bin\Debug\BoxingeUnboxing.pdb
+C:\ProjetosC#\Seção 6 Curso\BoxingeUnboxing\obj\Debug\BoxingeUnboxing.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\BoxingeUnboxing\obj\Debug\BoxingeUnboxing.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\BoxingeUnboxing\obj\Debug\BoxingeUnboxing.exe
+C:\ProjetosC#\Seção 6 Curso\BoxingeUnboxing\obj\Debug\BoxingeUnboxing.pdb

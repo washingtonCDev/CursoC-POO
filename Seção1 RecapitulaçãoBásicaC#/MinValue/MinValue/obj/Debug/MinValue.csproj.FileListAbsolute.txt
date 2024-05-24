@@ -1,0 +1,7 @@
+D:\ProjetosC#\RecapitulaçãoBásicaC#\MinValue\MinValue\bin\Debug\MinValue.exe.config
+D:\ProjetosC#\RecapitulaçãoBásicaC#\MinValue\MinValue\bin\Debug\MinValue.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\MinValue\MinValue\bin\Debug\MinValue.pdb
+D:\ProjetosC#\RecapitulaçãoBásicaC#\MinValue\MinValue\obj\Debug\MinValue.csproj.AssemblyReference.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\MinValue\MinValue\obj\Debug\MinValue.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\MinValue\MinValue\obj\Debug\MinValue.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\MinValue\MinValue\obj\Debug\MinValue.pdb

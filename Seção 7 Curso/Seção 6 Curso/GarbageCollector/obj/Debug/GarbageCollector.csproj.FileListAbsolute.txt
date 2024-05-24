@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\GarbageCollector\bin\Debug\GarbageCollector.exe.config
+C:\ProjetosC#\Seção 6 Curso\GarbageCollector\bin\Debug\GarbageCollector.exe
+C:\ProjetosC#\Seção 6 Curso\GarbageCollector\bin\Debug\GarbageCollector.pdb
+C:\ProjetosC#\Seção 6 Curso\GarbageCollector\obj\Debug\GarbageCollector.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\GarbageCollector\obj\Debug\GarbageCollector.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\GarbageCollector\obj\Debug\GarbageCollector.exe
+C:\ProjetosC#\Seção 6 Curso\GarbageCollector\obj\Debug\GarbageCollector.pdb

@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioMatrizesResolvido\ExercicioMatrizesResolvido\bin\Debug\ExercicioMatrizesResolvido.exe.config
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioMatrizesResolvido\ExercicioMatrizesResolvido\bin\Debug\ExercicioMatrizesResolvido.exe
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioMatrizesResolvido\ExercicioMatrizesResolvido\bin\Debug\ExercicioMatrizesResolvido.pdb
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioMatrizesResolvido\ExercicioMatrizesResolvido\obj\Debug\ExercicioMatrizesResolvido.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioMatrizesResolvido\ExercicioMatrizesResolvido\obj\Debug\ExercicioMatrizesResolvido.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioMatrizesResolvido\ExercicioMatrizesResolvido\obj\Debug\ExercicioMatrizesResolvido.exe
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioMatrizesResolvido\ExercicioMatrizesResolvido\obj\Debug\ExercicioMatrizesResolvido.pdb

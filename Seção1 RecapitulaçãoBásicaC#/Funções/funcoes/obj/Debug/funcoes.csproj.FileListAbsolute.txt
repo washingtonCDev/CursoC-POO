@@ -1,0 +1,7 @@
+D:\ProjetosC#\RecapitulaçãoBásicaC#\Funções\funcoes\obj\Debug\funcoes.csproj.AssemblyReference.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\Funções\funcoes\obj\Debug\funcoes.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\RecapitulaçãoBásicaC#\Funções\funcoes\bin\Debug\funcoes.exe.config
+D:\ProjetosC#\RecapitulaçãoBásicaC#\Funções\funcoes\bin\Debug\funcoes.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\Funções\funcoes\bin\Debug\funcoes.pdb
+D:\ProjetosC#\RecapitulaçãoBásicaC#\Funções\funcoes\obj\Debug\funcoes.exe
+D:\ProjetosC#\RecapitulaçãoBásicaC#\Funções\funcoes\obj\Debug\funcoes.pdb

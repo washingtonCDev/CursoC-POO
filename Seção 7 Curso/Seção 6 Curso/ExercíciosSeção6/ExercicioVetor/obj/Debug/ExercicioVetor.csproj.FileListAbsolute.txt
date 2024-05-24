@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioVetor\bin\Debug\ExercicioVetor.exe.config
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioVetor\bin\Debug\ExercicioVetor.exe
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioVetor\bin\Debug\ExercicioVetor.pdb
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioVetor\obj\Debug\ExercicioVetor.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioVetor\obj\Debug\ExercicioVetor.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioVetor\obj\Debug\ExercicioVetor.exe
+C:\ProjetosC#\Seção 6 Curso\ExercíciosSeção6\ExercicioVetor\obj\Debug\ExercicioVetor.pdb
