@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 7 Curso\Timespan\Timespan\bin\Debug\Timespan.exe.config
+C:\ProjetosC#\Seção 7 Curso\Timespan\Timespan\bin\Debug\Timespan.exe
+C:\ProjetosC#\Seção 7 Curso\Timespan\Timespan\bin\Debug\Timespan.pdb
+C:\ProjetosC#\Seção 7 Curso\Timespan\Timespan\obj\Debug\Timespan.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 7 Curso\Timespan\Timespan\obj\Debug\Timespan.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 7 Curso\Timespan\Timespan\obj\Debug\Timespan.exe
+C:\ProjetosC#\Seção 7 Curso\Timespan\Timespan\obj\Debug\Timespan.pdb

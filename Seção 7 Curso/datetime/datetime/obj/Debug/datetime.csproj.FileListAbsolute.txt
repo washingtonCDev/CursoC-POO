@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 7 Curso\datetime\datetime\bin\Debug\datetime.exe.config
+C:\ProjetosC#\Seção 7 Curso\datetime\datetime\bin\Debug\datetime.exe
+C:\ProjetosC#\Seção 7 Curso\datetime\datetime\bin\Debug\datetime.pdb
+C:\ProjetosC#\Seção 7 Curso\datetime\datetime\obj\Debug\datetime.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 7 Curso\datetime\datetime\obj\Debug\datetime.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 7 Curso\datetime\datetime\obj\Debug\datetime.exe
+C:\ProjetosC#\Seção 7 Curso\datetime\datetime\obj\Debug\datetime.pdb
