@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 7 Curso\PadraoISO\PadraoISO\bin\Debug\PadraoISO.exe.config
+C:\ProjetosC#\Seção 7 Curso\PadraoISO\PadraoISO\bin\Debug\PadraoISO.exe
+C:\ProjetosC#\Seção 7 Curso\PadraoISO\PadraoISO\bin\Debug\PadraoISO.pdb
+C:\ProjetosC#\Seção 7 Curso\PadraoISO\PadraoISO\obj\Debug\PadraoISO.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 7 Curso\PadraoISO\PadraoISO\obj\Debug\PadraoISO.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 7 Curso\PadraoISO\PadraoISO\obj\Debug\PadraoISO.exe
+C:\ProjetosC#\Seção 7 Curso\PadraoISO\PadraoISO\obj\Debug\PadraoISO.pdb

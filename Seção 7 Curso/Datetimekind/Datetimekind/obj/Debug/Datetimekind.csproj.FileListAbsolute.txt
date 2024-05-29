@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 7 Curso\Datetimekind\Datetimekind\bin\Debug\Datetimekind.exe.config
+C:\ProjetosC#\Seção 7 Curso\Datetimekind\Datetimekind\bin\Debug\Datetimekind.exe
+C:\ProjetosC#\Seção 7 Curso\Datetimekind\Datetimekind\bin\Debug\Datetimekind.pdb
+C:\ProjetosC#\Seção 7 Curso\Datetimekind\Datetimekind\obj\Debug\Datetimekind.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 7 Curso\Datetimekind\Datetimekind\obj\Debug\Datetimekind.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 7 Curso\Datetimekind\Datetimekind\obj\Debug\Datetimekind.exe
+C:\ProjetosC#\Seção 7 Curso\Datetimekind\Datetimekind\obj\Debug\Datetimekind.pdb
