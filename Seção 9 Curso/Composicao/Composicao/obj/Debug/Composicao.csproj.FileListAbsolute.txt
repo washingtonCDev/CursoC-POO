@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 9 Curso\Composicao\Composicao\bin\Debug\Composicao.exe.config
+C:\ProjetosC#\Seção 9 Curso\Composicao\Composicao\bin\Debug\Composicao.exe
+C:\ProjetosC#\Seção 9 Curso\Composicao\Composicao\bin\Debug\Composicao.pdb
+C:\ProjetosC#\Seção 9 Curso\Composicao\Composicao\obj\Debug\Composicao.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 9 Curso\Composicao\Composicao\obj\Debug\Composicao.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 9 Curso\Composicao\Composicao\obj\Debug\Composicao.exe
+C:\ProjetosC#\Seção 9 Curso\Composicao\Composicao\obj\Debug\Composicao.pdb

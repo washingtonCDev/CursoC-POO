@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Anotar.Serilog</name>
+    </assembly>
+    <members>
+        <member name="T:Anotar.Serilog.LogTo">
+            <summary>
+            Provides logging functions.
+            </summary>
+        </member>
+        <member name="P:Anotar.Serilog.LogTo.IsVerboseEnabled">
+            <summary>
+            Returns true if verbose is enabled.
+            </summary>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Verbose">
+            <summary>
+            Writes the diagnostic message at the <c>Verbose</c> level.
+            </summary>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Verbose(System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the <c>Verbose</c> level.
+            </summary>
+            <param name="messageTemplate">Message template describing the event.</param>
+            <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Verbose(System.Exception,System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message and exception at the <c>Verbose</c> level.
+            </summary>
+            <param name="exception">An exception to be logged.</param>
+            <param name="messageTemplate">Message template describing the event.</param>
+            <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        </member>
+        <member name="P:Anotar.Serilog.LogTo.IsDebugEnabled">
+            <summary>
+            Returns true if debug is enabled.
+            </summary>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Debug">
+            <summary>
+            Writes the diagnostic message at the <c>Debug</c> level.
+            </summary>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Debug(System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the <c>Debug</c> level.
+            </summary>
+            <param name="messageTemplate">Message template describing the event.</param>
+            <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Debug(System.Exception,System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message and exception at the <c>Debug</c> level.
+            </summary>
+            <param name="exception">An exception to be logged.</param>
+            <param name="messageTemplate">Message template describing the event.</param>
+            <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Information">
+            <summary>
+            Writes the diagnostic message at the <c>Info</c> level.
+            </summary>
+        </member>
+        <member name="P:Anotar.Serilog.LogTo.IsInformationEnabled">
+            <summary>
+            Returns true if information is enabled.
+            </summary>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Information(System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the <c>Info</c> level.
+            </summary>
+            <param name="messageTemplate">Message template describing the event.</param>
+            <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Information(System.Exception,System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message and exception at the <c>Info</c> level.
+            </summary>
+            <param name="exception">An exception to be logged.</param>
+            <param name="messageTemplate">Message template describing the event.</param>
+            <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        </member>
+        <member name="P:Anotar.Serilog.LogTo.IsWarningEnabled">
+            <summary>
+            Returns true if warning is enabled.
+            </summary>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Warning">
+            <summary>
+            Writes the diagnostic message at the <c>Warn</c> level.
+            </summary>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Warning(System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the <c>Warn</c> level.
+            </summary>
+            <param name="messageTemplate">Message template describing the event.</param>
+            <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Warning(System.Exception,System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message and exception at the <c>Warn</c> level.
+            </summary>
+            <param name="exception">An exception to be logged.</param>
+            <param name="messageTemplate">Message template describing the event.</param>
+            <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        </member>
+        <member name="P:Anotar.Serilog.LogTo.IsErrorEnabled">
+            <summary>
+            Returns true if error is enabled.
+            </summary>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Error">
+            <summary>
+            Writes the diagnostic message at the <c>Error</c> level.
+            </summary>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Error(System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the Error level.
+            </summary>
+            <param name="messageTemplate">Message template describing the event.</param>
+            <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Error(System.Exception,System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message and exception at the <c>Error</c> level.
+            </summary>
+            <param name="exception">An exception to be logged.</param>
+            <param name="messageTemplate">Message template describing the event.</param>
+            <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        </member>
+        <member name="P:Anotar.Serilog.LogTo.IsFatalEnabled">
+            <summary>
+            Returns true if fatal is enabled.
+            </summary>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Fatal">
+            <summary>
+            Writes the diagnostic message at the <c>Fatal</c> level.
+            </summary>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Fatal(System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the <c>Fatal</c> level.
+            </summary>
+            <param name="messageTemplate">Message template describing the event.</param>
+            <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        </member>
+        <member name="M:Anotar.Serilog.LogTo.Fatal(System.Exception,System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message and exception at the <c>Fatal</c> level.
+            </summary>
+            <param name="exception">An exception to be logged.</param>
+            <param name="messageTemplate">Message template describing the event.</param>
+            <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        </member>
+        <member name="T:Anotar.Serilog.LogToDebugOnExceptionAttribute">
+            <summary>
+            If an <see cref="T:System.Exception"/> occurs in the applied method then log it to <c>Debug</c>.
+            </summary>
+        </member>
+        <member name="T:Anotar.Serilog.LogToErrorOnExceptionAttribute">
+            <summary>
+            If an <see cref="T:System.Exception"/> occurs in the applied method then log it to <c>Error</c>.
+            </summary>
+        </member>
+        <member name="T:Anotar.Serilog.LogToFatalOnExceptionAttribute">
+            <summary>
+            If an <see cref="T:System.Exception"/> occurs in the applied method then log it to <c>Fatal</c>.
+            </summary>
+        </member>
+        <member name="T:Anotar.Serilog.LogToInformationOnExceptionAttribute">
+            <summary>
+            If an <see cref="T:System.Exception"/> occurs in the applied method then log it to <c>Information</c>.
+            </summary>
+        </member>
+        <member name="T:Anotar.Serilog.LogToVerboseOnExceptionAttribute">
+            <summary>
+            If an <see cref="T:System.Exception"/> occurs in the applied method then log it to <c>Verbose</c>.
+            </summary>
+        </member>
+        <member name="T:Anotar.Serilog.LogToWarningOnExceptionAttribute">
+            <summary>
+            If an <see cref="T:System.Exception"/> occurs in the applied method then log it to <c>Warning</c>.
+            </summary>
+        </member>
+    </members>
+</doc>

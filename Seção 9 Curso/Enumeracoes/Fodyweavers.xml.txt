@@ -1,0 +1,4 @@
+<Weavers>
+  <!-- Adicione aqui os weavers que você deseja usar -->
+  <PropertyChanged />
+</Weavers>

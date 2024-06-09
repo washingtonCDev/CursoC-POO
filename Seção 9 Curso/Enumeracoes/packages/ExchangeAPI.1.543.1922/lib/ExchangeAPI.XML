@@ -1,0 +1,1610 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>ExchangeAPI</name>
+  </assembly>
+  <members>
+    <member name="T:ExchangeAPI.Data.AutoUpdater">
+      <summary>
+              Use for everyday update actions (for instance, update for new markets)
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.AutoUpdater.Start(System.Action,System.Int32)">
+      <summary>
+            Start action and repeat each specified hour of day
+            var toTime = DateTime.Now.AddHours(21).Date.AddHours(3);
+            </summary>
+      <param name="action">Action to execute</param>
+      <param name="hour">24h-format hour</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="F:ExchangeAPI.Data.StartingPrices.ActualPrice">
+      <summary>
+              It should be double, because can be Infinity
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.Data.StatementFilter">
+      <summary>
+            Profit and Loss statements filter
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.Data.StatementReport">
+      <summary>
+            Account statement report
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.StatementReport.SelectionName">
+      <summary>
+            The runner name, maybe including the handicap, translated into the requested locale. Available at BET groupBy.
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.Data.MarketType">
+      <summary>
+            Object, describing a type of markets
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketType.#ctor(System.String,System.Int32)">
+      <summary>
+            Default constructor
+            </summary>
+      <param name="marketType">
+      </param>
+      <param name="marketCount">
+      </param>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketType.Name">
+      <summary>
+            Name of type of markets
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketType.Count">
+      <summary>
+            Count of markets of this type
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketType.DisplayString">
+      <summary>
+            Representation string
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.Data.BetSide">
+      <summary>
+              Side of the bet - left (for lay) or right (for back)
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.Data.BetPersistenceType">
+      <summary>
+              In-play behavior
+            </summary>
+    </member>
+    <member name="F:ExchangeAPI.Data.BetPersistenceType.NONE">
+      <remarks />
+    </member>
+    <member name="F:ExchangeAPI.Data.BetPersistenceType.IP">
+      <remarks />
+    </member>
+    <member name="F:ExchangeAPI.Data.BetPersistenceType.SP">
+      <remarks />
+    </member>
+    <member name="T:ExchangeAPI.Data.Order">
+      <summary>
+              Order (bet) data
+            </summary>
+    </member>
+    <member name="F:ExchangeAPI.Data.Order.NewPersistenceType">
+      <summary>
+              Set to mark this bet to be updated according it's persistence type
+            </summary>
+    </member>
+    <member name="F:ExchangeAPI.Data.Order.ResetCount">
+      <summary>
+              Used for Betdaq
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.Order.#ctor(System.Int64,ExchangeAPI.Data.BetSide,System.Decimal,System.Decimal,ExchangeAPI.Data.BetPersistenceType)">
+      <summary>
+              Complex constructor
+            </summary>
+      <param name="selectionId">Selection Id</param>
+      <param name="side">Bet side</param>
+      <param name="price">Without auto-normalizing (because no access to provider)</param>
+      <param name="size">It is rounded to 2 digits after point</param>
+      <param name="persistenceType">Persistence Type</param>
+    </member>
+    <member name="M:ExchangeAPI.Data.Order.#ctor(ExchangeAPI.Data.RunnerData,ExchangeAPI.Data.BetSide,System.Decimal,System.Decimal,ExchangeAPI.Data.BetPersistenceType)">
+      <summary>
+              Constructor to set the selection for order
+            </summary>
+      <param name="selection">It may be used to get selection name for example</param>
+      <param name="side">Bet side</param>
+      <param name="price">Without auto-normalizing (because no access to provider)</param>
+      <param name="size">It is rounded to 2 digits after point</param>
+      <param name="persistenceType">Persistence Type</param>
+    </member>
+    <member name="M:ExchangeAPI.Data.Order.#ctor(System.Decimal)">
+      <summary>
+            Used for Pinncalce
+            </summary>
+      <param name="size">
+      </param>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.IsNew">
+      <summary>
+              Flag about is it new generating bet or existing on exchange already
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.NewSize">
+      <summary>
+              New size of bet to change for. It is rounded automatically.
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.Size">
+      <summary>
+              Initial size or liability for BSP, rounded automatically
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.Liability">
+      <summary>
+              Liability based on Size (requested)
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.MarketId">
+      <summary>
+              Exchange id of market of bet
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.Selection">
+      <summary>
+              Order selection, can be used by some providers
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.SelectionId">
+      <summary>
+            Necessary for bet placement
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.SizeMatched">
+      <summary>
+              Marched part of size requested
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.SizeRemaining">
+      <summary>
+              The current amount of this bet that is unmatched. It is Size - SizeMatched
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.AveragePriceMatched">
+      <summary>
+              Average price for matched parts
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.IsMatched">
+      <summary>
+              Is order fully matched
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.IfWin">
+      <summary>
+            Current bet profit prediction (based on matched size) if selection win 
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.IfLose">
+      <summary>
+            Current bet profit prediction (based on matched size) if selection lose 
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.Order.SetMatched(System.Decimal)">
+      <summary>
+              Correctly update order properties for bet state as Fully matched
+            </summary>
+      <param name="price">Average price matched, not required</param>
+    </member>
+    <member name="M:ExchangeAPI.Data.Order.SetNewSizeForPrice(System.Decimal)">
+      <summary>
+              Set relative NewSize depend on argument
+            </summary>
+      <param name="newAvailablePrice">
+      </param>
+    </member>
+    <member name="M:ExchangeAPI.Data.Order.SetNewSize">
+      <summary>
+              Set NewSize based on NewPrice, used for moving bet with fixed liability
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.Order.SetPrice(System.Nullable{System.Decimal})">
+      <summary>
+              Set Price as newPrice (argument) if defined or NewPrice and reset NewPrice to 0
+            </summary>
+      <param name="newPrice">
+      </param>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.PlacedDate">
+      <summary>
+              Time when bet was placed
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.MatchedDate">
+      <summary>
+              Time when bet was matched
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Order.SettledDate">
+      <summary>
+              Time when bet was settled
+            </summary>
+    </member>
+    <member name="F:ExchangeAPI.Data.GroupBy.EVENT_TYPE">
+      <summary>
+              A roll up of settled P/L, commission paid and number of bet orders, on a specified event type
+            </summary>
+    </member>
+    <member name="F:ExchangeAPI.Data.GroupBy.EVENT">
+      <summary>
+              A roll up of settled P/L, commission paid and number of bet orders, on a specified event
+            </summary>
+    </member>
+    <member name="F:ExchangeAPI.Data.GroupBy.MARKET">
+      <summary>
+              A roll up of settled P/L, commission paid and number of bet orders, on a specified market
+            </summary>
+    </member>
+    <member name="F:ExchangeAPI.Data.GroupBy.SIDE">
+      <summary>
+              An averaged roll up of settled P/L, and number of bets, on the specified side of a specified selection within a
+              specified market, that are either settled or voided
+            </summary>
+    </member>
+    <member name="F:ExchangeAPI.Data.GroupBy.BET">
+      <summary>
+              The P/L, commission paid, side and regulatory information etc, about each individual bet order
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.Data.BetFilter">
+      <summary>
+              Filter markets for operations
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.BetFilter.#ctor">
+      <summary>
+              Empty constructor
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.BetFilter.#ctor(System.Object,System.Collections.Generic.IEnumerable{System.Object})">
+      <summary>
+              Constructor for Betfair
+            </summary>
+      <param name="marketId">
+      </param>
+      <param name="betIds">
+      </param>
+    </member>
+    <member name="P:ExchangeAPI.Data.BetFilter.MarketId">
+      <summary>
+            Usable, when one market for BetFilter is used
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.BetFilter.Status">
+      <summary>
+            Used for GetClearedOrders
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.BetFilter.MatchedOnly">
+      <summary>
+              true - matched only, false - unmatched only, null - ALL
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.BetFilter.GroupBy">
+      <summary>
+              Used for GetAccountStatement, GetClearedBets, necessary if filter by BetIds
+              default value is: GroupBy.BET
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.BetFilter.OrderBy">
+      <summary>
+            Used in GetCurrentBets
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.Event.#ctor">
+      <summary>
+            For serialization
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Event.Id">
+      <summary>
+              0 is for Top level events (sports types)
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Event.Name">
+      <summary>
+              Name of the event
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Event.Home">
+      <summary>
+              Home competitor
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Event.Away">
+      <summary>
+              Away competitor
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Event.CountryCode">
+      <summary>
+              2-letters country code
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Event.StartTime">
+      <summary>
+              It was nullable to show empty data in group mode, time is local time
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Event.TypeId">
+      <summary>
+              Event Type Id (i.e., Football, Hockey, etc)
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Event.TypeName">
+      <summary>
+              Event Type name  (i.e., Football, Hockey, etc)
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Event.IsAccessible">
+      <summary>
+              Used for Pinnacle
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Event.Competition">
+      <summary>
+              The competition the market is contained within. Usually only applies to Football competitions
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Event.Events">
+      <summary>
+              Children events
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.Data.MarketStatus">
+      <summary>
+              Current state of market
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.Data.MarketData">
+      <summary>
+              Market object
+            </summary>
+    </member>
+    <member name="F:ExchangeAPI.Data.MarketData.Children">
+      <summary>
+              To use as tree //TODO: delete?
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.#ctor(System.Object,ExchangeAPI.ExchangeProvider,System.String)">
+      <summary>
+      </summary>
+      <param name="id">
+      </param>
+      <param name="provider">
+      </param>
+      <param name="locale">Locale for market data</param>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.Event">
+      <summary>
+              Event of the market. It is initialized from FillMarketData or GetMarkets
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.Locale">
+      <summary>
+              Locale, in which string data like Competition name, Event name, Market Name, Selection names are provided
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.Fair">
+      <summary>
+              Reference to Exchange, necessary to encapsulate methods
+              It is public to differ markets of different exchange types
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.Id">
+      <summary>
+              Exchange internal market id
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.Name">
+      <summary>
+              Name of the market
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.Type">
+      <summary>
+              Type of the market (i.e., MATCH_ODDS, HALF_TIME_SCORE)
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.LastRefreshTime">
+      <summary>
+              Field from GetAllMarkets response
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.NRunners">
+      <summary>
+              Number of Runners
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.Runners">
+      <summary>
+              Runners with associated information
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.NWinners">
+      <summary>
+              Number of Winners
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.TotalMatched">
+      <summary>
+            Total matched by market, used for Speed calculation
+            Available from marketCatalogue and marketBook
+            Total matched is used for speed calculation, so we need it null for 1st value, but for this purposes there is nulled Speed
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.IsUpdated">
+      <summary>
+              null for new construction
+              Updated from UpdateMarkets()
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.LiveProfit">
+      <summary>
+              It is set only by UpdateLiveProfit call
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.BackOverround">
+      <summary>
+              The Book Percentage gives a measure of the competitiveness of the prices on offer.
+              It is calculated by adding up the individual percentage chance of every selection based on the price that is being
+              offered.
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.LayOverround">
+      <summary>
+              The Book Percentage gives a measure of the competitiveness of the prices on offer.
+              It is calculated by adding up the individual percentage chance of every selection based on the price that is being
+              offered.
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.RacingTime">
+      <summary>
+              Length of market's horse racing venue average length in seconds
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.GetRaceTime(System.String,System.String)">
+      <summary>
+              Get average racing time
+            </summary>
+      <param name="eventDisplayName">
+      </param>
+      <param name="name">
+      </param>
+      <returns>Time in seconds and -1 in case no data</returns>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.LiveResult">
+      <summary>
+              Available for Betfair exchange only now, use UpdateLiveResult() to get or update
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.IsInplay">
+      <summary>
+              Is market in-play now
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.IsActive">
+      <summary>
+              Is market Status is OPEN
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.WithdrawalSeqNo">
+      <summary>
+              Used in Betdaq API only
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.MyMoney">
+      <summary>
+              My money which is blocked by this market
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.IsHandicapMarket">
+      <summary>
+              Check is market Asian Handicap or not. This property is needed because listCurrentOrders always returns 0.0
+              erroneously for not Asian handicap markets
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketData.PotentialProfit">
+      <summary>
+              Profit which is calculated by special algorithm which predict average closing price
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.FillData">
+      <summary>
+              Fill market with runners and other information
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.GetPrices(ExchangeAPI.Data.PricesFilter)">
+      <summary>
+              Get best prices for market, adding runner(s) if not exist and update market book information
+            </summary>
+      <param name="filter">Filter prices by conditions</param>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.UpdateStatus">
+      <summary>
+              Update status of markets, total matched information, inplay information, bet delay information, number of runners.
+              Not updated prices and runners itself.
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.WaitStart(System.Int32)">
+      <summary>
+              Sleep until an actual start (inplay) of the event, returns false if manually interrupted by event (using StopWait)
+            </summary>
+      <param name="intervalMs">interval to check that event is started</param>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.WaitActive(System.Int32,System.Int32)">
+      <summary>
+              Wait till market became OPEN (например после забитого гола в футболе)
+            </summary>
+      <param name="oddsDeep">Prices deep if get prices, 0 (default) for update status only</param>
+      <param name="secondsToWait">How long to wait in seconds (default is 5 min.)</param>
+      <returns>True when OPEN is achieved inside specified time</returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.GetBets">
+      <summary>
+              Get market current bets
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.GetProfitAndLoss">
+      <summary>
+              Filling IfWin, IfLoss
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.UpdateLiveProfit(System.Int32)">
+      <summary>
+              Receive current bets and call UpdateLiveProfit
+            </summary>
+      <param name="overtakenTicksForTrade">
+              Number of overtaken ticks to place hedging bets, 0 if no overtake, -1 if no trade
+              (default)
+            </param>
+      <returns>Hedging bets</returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.UpdateLiveProfit(System.Collections.Generic.List{ExchangeAPI.Data.Order},System.Int32,System.Decimal)">
+      <summary>
+              Update LiveProfit and MyMoney properties and conditionally hedge the market
+            </summary>
+      <param name="bets">Current made bets</param>
+      <param name="overtakenTicksForTrade">
+              Number of overtaken ticks to place hedging bets, 0 if no overtake, -1 if no trade
+              (default)
+            </param>
+      <param name="decreasingKef">
+              Multiplier for profit: (100 - Commission)/100, 0 - don't apply commission, default - apply
+              Fair calculated DecreasingKef
+            </param>
+      <returns>Hedging bets</returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.PlaceBets(System.Collections.Generic.List{ExchangeAPI.Data.Order},System.String,System.Boolean,System.Boolean)">
+      <summary>
+              Place bets on this market
+            </summary>
+      <param name="bets">Bets to place</param>
+      <param name="strategy">An optional reference customers can use to specify which strategy has sent the order. The reference will be returned on order change messages through the stream API. The string is limited to 15 characters. If an empty string is provided it will be treated as null </param>
+      <param name="async">An optional flag (not setting equates to false) which specifies if the orders should be placed asynchronously.</param>
+      <param name="wantAllOrNothing">Is unitary operation</param>
+      <returns>Success flag</returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.PlaceBet(ExchangeAPI.Data.Order,System.String,System.Boolean)">
+      <summary>
+              Placing new bet, size is rounded
+            </summary>
+      <param name="bet">
+      </param>
+      <param name="strategy">An optional reference customers can use to specify which strategy has sent the order. The reference will be returned on order change messages through the stream API. The string is limited to 15 characters. If an empty string is provided it will be treated as null </param>
+      <param name="async">An optional flag (not setting equates to false) which specifies if the orders should be placed asynchronously.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.PlaceFloatOrder(ExchangeAPI.Data.Order,System.String,System.Threading.CancellationToken)">
+      <summary>
+            Place order and always move it to better price
+            </summary>
+      <param name="order">
+      </param>
+      <param name="strategy">
+      </param>
+      <param name="token">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.PlaceTrackingOrder(ExchangeAPI.Data.Order,System.Decimal,System.String,System.Threading.CancellationToken)">
+      <summary>
+            Place order to best size and always move it to better price, but place it partially to keep placing part twice less than requested minBorderSize
+            </summary>
+      <param name="order">Order to place, price will be set automatically</param>
+      <param name="minBorderSize">Min size for prices filter</param>
+      <param name="strategy">
+      </param>
+      <param name="token">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.UpdateBets(System.Collections.Generic.List{ExchangeAPI.Data.Order},System.String)">
+      <summary>
+              If size is increased, then a new bet will be created to keep the query for existing bet
+            </summary>
+      <param name="bets">
+      </param>
+      <param name="strategy">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.UpdateBet(ExchangeAPI.Data.Order,System.String)">
+      <summary>
+              If size is increased, then a new bet will be created to keep the query for existing bet
+            </summary>
+      <param name="bet">Bet to update</param>
+      <param name="strategy">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.MarketData.CancelAllBets">
+      <summary>
+              Cancel all bets on this market
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.Data.PricesFilter">
+      <summary>
+            Filter prices by specified conditions
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.PricesFilter.Deep">
+      <summary>
+            Deep of prices. Specify -1 to get all prices. Default is 3.
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.PricesFilter.WithTradedVolumes">
+      <summary>
+            Get traded volumes as well
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.PricesFilter.Interval">
+      <summary>
+             Do not update prices, if they already was updated within specified interval in ms. Specify it 0
+             or less to sure update
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.PricesFilter.MinSize">
+      <summary>
+            Minimal shown unmatched size, small sizes are accumulated till MinSize or more collected  
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.PricesFilter.IgnoreTotalMatched">
+      <summary>
+            Used for speed calculation
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.PricesFilter.Last">
+      <summary>
+            Used for Pinnacle to get prices updates only
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.PricesFilter.IsLive">
+      <summary>
+            Used in Pinnacle only to retrieve only odds from live markets
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.PricesFilter.WithSpAvailable">
+      <summary>
+            Amount available for the BSP auction.
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.PricesFilter.WithSpTraded">
+      <summary>
+            Amount traded in the BSP auction.
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.PricesFilter.Virtualise">
+      <summary>
+            Indicates if the returned prices should include virtual prices. Applicable to EX_BEST_OFFERS and EX_ALL_OFFERS priceData selections, default value is false. Please note: This must be set to 'true' replicate the display of prices on the Betfair Exchange website.
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.PriceSize.#ctor">
+      <summary>
+            Default constructor
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.PriceSize.#ctor(System.Decimal,System.Decimal)">
+      <summary>
+            Constructor with data
+            </summary>
+      <param name="price">
+      </param>
+      <param name="size">
+      </param>
+    </member>
+    <member name="P:ExchangeAPI.Data.PriceSize.Size">
+      <summary>
+            Usually used for unmatched size
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.Result.IsFullTime">
+      <summary>
+            Is game finished?
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.Data.RunnerData">
+      <summary>
+              Runner (or selection) cumulative class
+            </summary>
+    </member>
+    <member name="F:ExchangeAPI.Data.RunnerData.ReductionFactor">
+      <summary>
+              If there is a subsequent withdrawal (non-runner), Betfair will reduce the matched price by the reduction factor of
+              the withdrawn horse.
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.RunnerData.#ctor(System.Int64,System.String,System.Nullable{System.Decimal})">
+      <summary>
+              Constructor
+            </summary>
+      <param name="selectionId">
+      </param>
+      <param name="selectionName">
+      </param>
+      <param name="handicap">
+      </param>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.Handicap">
+      <summary>
+              Handicap for Asian handicap bets
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.Status">
+      <summary>
+            The status of the selection (i.e., ACTIVE, REMOVED, WINNER, PLACED, LOSER, HIDDEN) Runner status information is available for 90 days following market settlement.
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.Id">
+      <summary>
+              Id of selection on the exchange, it is long for both Betfair and Betdaq
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.TradedMap">
+      <summary>
+              Dictionary of global traded (matched) values
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.BackPrices">
+      <summary>
+              It is not null (created from RunnerData constructor), but elements can be null
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.LayPrices">
+      <summary>
+              It is not null, but elements can be null
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.Name">
+      <summary>
+              Name of the runner
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.BestBack">
+      <summary>
+              Best Back price of the selection
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.BestLay">
+      <summary>
+              Best Lay price of the selection
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.IfWin">
+      <summary>
+              Profit and loss for the market if this selection is the winner
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.IfLose">
+      <summary>
+              Profit and loss for the market if this selection is the loser. Only returned for multi-winner odds markets.
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.IsRemoved">
+      <summary>
+              Flag about runner is removed from market
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.ResetCount">
+      <summary>
+              It is used by API on Betdaq
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.RunnerData.SortPriority">
+      <summary>
+            The sort priority of this runner
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.RunnerData.BestPrice(ExchangeAPI.Data.BetSide)">
+      <summary>
+              Best available price depend on side
+            </summary>
+      <param name="side">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.RunnerData.BestSize(ExchangeAPI.Data.BetSide)">
+      <summary>
+              Size of best price
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Data.RunnerData.OptimalSize(ExchangeAPI.Data.BetSide)">
+      <summary>
+              Оптимальный размер для ставки данного типа
+            </summary>
+      <param name="side">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.RunnerData.TradedVolume(System.Decimal)">
+      <summary>
+              Last check Traded volume
+            </summary>
+      <param name="price">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.RunnerData.HedgingBet(System.Decimal)">
+      <summary>
+              Calculate live profit/loss
+              HedgedSum (live profit) is calculated by formula:
+              matchedBets.Union(hedgingBets).ToList().Sum(b =&gt; b.Size * (b.side == BetSide.Back ? -1 : 1))
+            </summary>
+      <param name="sum">MatchedPriceSize</param>
+      <returns>Bet should be placed for hedging this runner</returns>
+    </member>
+    <member name="M:ExchangeAPI.Data.RunnerData.MatchedPriceSize(System.Collections.Generic.IEnumerable{ExchangeAPI.Data.Order})">
+      <summary>
+              Help function for calculation profits
+            </summary>
+      <param name="selectionBets">List of matched bets (for current selection)</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:ExchangeAPI.Data.MarketFilter">
+      <summary>
+              Object which represents filter for markets
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.EventTypeIds">
+      <summary>
+              Sport types id's
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.CompetitionIds">
+      <summary>
+              Id's of market's competition
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.EventIds">
+      <summary>
+              Only direct parent EventIds supported
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.MarketIds">
+      <summary>
+              Filter by ids of markets
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.IncludeRunners">
+      <summary>
+              Is include runners information with metadata (when availabale) in answer
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.FromTime">
+      <summary>
+              Filter by start time of market
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.ToTime">
+      <summary>
+              Filter by start time of market
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.Countries">
+      <summary>
+              Filter by countries (codes)
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.IncludeDescription">
+      <summary>
+              Is include additional information about market
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.TypeCodes">
+      <summary>
+              Restrict to markets that match the type of the market (i.e., MATCH_ODDS, HALF_TIME_SCORE). You should use this
+              instead of relying on the market name as the market type codes are the same in all locales
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.InPlayOnly">
+      <summary>
+              Filter markets that currently in-play
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.TurnInPlayEnabled">
+      <summary>
+              Filter markets that turned to in-play
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.Locale">
+      <summary>
+            Locale for return data. Null for default account locale.
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.WithOrders">
+      <summary>
+            Filter markets with active orders
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.WithGroups">
+      <summary>
+              Is return answer adapted to show groups
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Data.MarketFilter.Last">
+      <summary>
+            This is used to receive incremental updates for Pinnacle
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.Providers.Pinnacle.JsonSerializer">
+      <summary>
+            Default JSON serializer for request bodies
+            Doesn't currently use the SerializeAs attribute, defers to Newtonsoft's attributes
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Providers.Pinnacle.JsonSerializer.#ctor">
+      <summary>
+            Default serializer
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Providers.Pinnacle.JsonSerializer.#ctor(Newtonsoft.Json.JsonSerializer)">
+      <summary>
+            Default serializer with overload for allowing custom Json.NET settings
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Providers.Pinnacle.JsonSerializer.Serialize(System.Object)">
+      <summary>
+            Serialize the object as JSON
+            </summary>
+      <param name="obj">Object to serialize</param>
+      <returns>JSON as String</returns>
+    </member>
+    <member name="P:ExchangeAPI.Providers.Pinnacle.JsonSerializer.DateFormat">
+      <summary>
+            Unused for JSON Serialization
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Providers.Pinnacle.JsonSerializer.RootElement">
+      <summary>
+            Unused for JSON Serialization
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Providers.Pinnacle.JsonSerializer.Namespace">
+      <summary>
+            Unused for JSON Serialization
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.Providers.Pinnacle.JsonSerializer.ContentType">
+      <summary>
+            Content type for serialized content
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.Providers.Pinnacle.PinnacleProvider">
+      <summary>
+            Pinnacle provider
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.Providers.Pinnacle.PinnacleProvider.#ctor(System.String,System.String)">
+      <summary>
+            Constructor
+            </summary>
+      <param name="login">
+      </param>
+      <param name="password">
+      </param>
+    </member>
+    <member name="M:ExchangeAPI.Providers.Pinnacle.PinnacleProvider.UpdateMarketsStatus(System.Collections.Generic.IList{ExchangeAPI.Data.MarketData})">
+      <summary>
+            Тут надо подумать что делать с since. Добавить параметр marketFilter?
+            </summary>
+      <param name="markets">
+      </param>
+    </member>
+    <member name="M:ExchangeAPI.Providers.Pinnacle.PinnacleProvider.GetMarketPrices(ExchangeAPI.Data.MarketData,ExchangeAPI.Data.PricesFilter)">
+      <summary>
+            Using line query
+            </summary>
+      <param name="market">
+      </param>
+      <param name="pricesFilter">
+      </param>
+    </member>
+    <member name="M:ExchangeAPI.Providers.Pinnacle.PinnacleProvider.GetOdds(System.Int32,System.Collections.Generic.IEnumerable{System.Int64},System.Boolean,System.Int64,System.Collections.Generic.IEnumerable{System.Int32})">
+      <summary>
+            Get odds
+            </summary>
+      <param name="sportId">29 - Soccer</param>
+      <param name="eventIds">Limited by 100</param>
+      <param name="isLive">
+      </param>
+      <param name="since">
+      </param>
+      <param name="leagueIds">Limited by 100</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.Providers.Pinnacle.PinnacleProvider.GetMarketsPrices(System.Collections.Generic.List{ExchangeAPI.Data.MarketData},ExchangeAPI.Data.PricesFilter)">
+      <summary>
+            Only for one sport type in one call.
+            </summary>
+      <param name="markets">
+      </param>
+      <param name="pricesFilter">Use Last to get updates only. Use IsLive to filter only in-play markets.</param>
+    </member>
+    <member name="T:ExchangeAPI.BetfairProvider">
+      <summary>
+              Provider for Hi Level Exchange wrapper for Betfair API-NG
+            </summary>
+    </member>
+    <member name="F:ExchangeAPI.BetfairProvider.VendorId">
+      <summary>
+              Betfair vendor's id
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.#ctor(ExchangeAPI.ExchangeProvider.ProcessErrorDelegate,System.Boolean)">
+      <summary>
+              Default constructor
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.#ctor(System.String,System.String,System.String,System.Boolean)">
+      <summary>
+              Constructor with Login. Exception in case of error.
+            </summary>
+      <param name="login">
+      </param>
+      <param name="password">
+      </param>
+      <param name="appKey">
+      </param>
+      <param name="restoreAfterResume">Restore connection after wake up. Set false if use from web service.</param>
+    </member>
+    <member name="P:ExchangeAPI.BetfairProvider.AvailableFunds">
+      <summary>
+              To update call GetAccountFunds
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.KeepAlive">
+      <summary>
+              It is called automatically
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.SubscriptionHistory">
+      <summary>
+              Application subscription history
+            </summary>
+      <returns>Exception thrown if there was no subscriptions with this </returns>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.ActivateApplicationSubscription(System.String)">
+      <summary>
+              Activate new subscription
+            </summary>
+      <param name="subscriptionToken">
+      </param>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.UpdateBetsStates(System.Collections.Generic.List{ExchangeAPI.Data.Order})">
+      <summary>
+              Update specified bets about matching information
+            </summary>
+      <param name="orders">Orders to update</param>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.GetCurrentBets(ExchangeAPI.Data.BetFilter)">
+      <summary>
+              Return current orders for specified markets and/or for specified bet ids
+            </summary>
+      <param name="betFilter">Filter for bets, for Betdaq you can call without this parameter and filter all bets by yourself</param>
+      <returns>Empty list if no bets</returns>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.GetClearedOrders(ExchangeAPI.Data.BetFilter)">
+      <summary>
+              This information available after market is Closed
+            </summary>
+      <param name="bf">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.GetAccountExchangeStatements(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+      <summary>
+              Strategy reference not returned, so it is less useful method
+            </summary>
+      <param name="from">
+      </param>
+      <param name="to">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.GetCompetitions(ExchangeAPI.Data.MarketFilter)">
+      <summary>
+              Get list of competitions by market filter
+            </summary>
+      <param name="marketFilter">
+      </param>
+      <returns>Collection of competitions</returns>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.GetMarketTypes(ExchangeAPI.Data.MarketFilter)">
+      <summary>
+              Get collection of available market types
+            </summary>
+      <param name="marketFilter">
+      </param>
+      <returns>Tuple as Name (ID) of Type and count of markets of this type</returns>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.PremiumCharge(System.Decimal)">
+      <summary>
+              Calculate premium charges for market gross (before decreasing commission) profit/loss
+            </summary>
+      <param name="profitLoss">Market gross profit/loss</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.PremiumCharges(System.Decimal,System.Decimal)">
+      <summary>
+              Calculate premium charges for market gross (before decreasing commission) profit/loss
+            </summary>
+      <param name="profitLoss">Market gross profit/loss</param>
+      <param name="commission">Betfair commission in percentages (like 6.5)</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.PlaceLowBets(System.String,System.Collections.Generic.List{ExchangeAPI.Data.Order},System.String,System.Boolean)">
+      <summary>
+              Place bets with size, less than allowed by Betfair
+            </summary>
+      <param name="marketId">
+      </param>
+      <param name="lowBetsList">
+      </param>
+      <param name="customerStrategyRef">
+      </param>
+      <param name="async">
+              An optional flag (not setting equates to false) which specifies if the orders should be placed
+              asynchronously.
+            </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.ModifyBets(System.Object,System.Collections.Generic.List{ExchangeAPI.Data.Order},System.String)">
+      <summary>
+              Modify bets for new price/new size/new persistence type
+              If size is increased, then a new bet will be created to keep the query for existing bet
+              Bet Ids are modified for bets with changed price
+            </summary>
+      <param name="marketId">
+      </param>
+      <param name="bets">
+      </param>
+      <param name="strategy">
+      </param>
+    </member>
+    <member name="M:ExchangeAPI.BetfairProvider.CancelBets(System.Collections.Generic.IList{ExchangeAPI.Data.Order})">
+      <summary>
+              Cancel specified bets with filling their SizeRemaining as sizeCancelled
+            </summary>
+      <param name="bets">Bets from one market only are supported for Betfair</param>
+    </member>
+    <member name="P:ExchangeAPI.License.Key">
+      <summary>
+              Key is needed to avoid delays when placing bets. To get it, ask library author.
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.ExchangeProvider">
+      <summary>
+              Main class of library
+            </summary>
+    </member>
+    <member name="T:ExchangeAPI.ExchangeProvider.ProcessErrorDelegate">
+      <summary>
+              Delegate for error processing on throw exception, if not specified, default is used (throw above).
+            </summary>
+      <param name="errorCode">
+      </param>
+      <param name="errorMessage">
+      </param>
+    </member>
+    <member name="F:ExchangeAPI.ExchangeProvider.FavoriteMarkets">
+      <summary>
+              Used inside client. In API used to get MarketData.IsFavorite property
+            </summary>
+    </member>
+    <member name="F:ExchangeAPI.ExchangeProvider.Locale">
+      <summary>
+              Default user locale
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.#ctor(ExchangeAPI.ExchangeProvider.ProcessErrorDelegate)">
+      <summary>
+              Constructor with error handler
+            </summary>
+      <param name="errorHandler">
+      </param>
+    </member>
+    <member name="P:ExchangeAPI.ExchangeProvider.UserName">
+      <summary>
+              Login of user. Also it is used to create new session after wake-up
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.ExchangeProvider.Name">
+      <summary>
+              Name of provider
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.ExchangeProvider.ExchangeId">
+      <summary>
+              Exchange Id. Remains for possible future betting on Australian Betfair exchange.
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.ExchangeProvider.Proxy">
+      <summary>
+              Proxy for access site
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.ExchangeProvider.IsLoggedIn">
+      <summary>
+              Flag about login
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.ExchangeProvider.Tag">
+      <summary>
+              For application usages
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.GetCurrentBets(ExchangeAPI.Data.BetFilter)">
+      <summary>
+              Return current orders for specified markets and/or for specified bet ids
+              For BetDaq, 1st call returns bootstrap orders, next calls returns bootstrap + changed since
+            </summary>
+      <param name="betFilter">Filter for bets, for Betdaq you can call without this parameter and filter all bets by yourself</param>
+      <returns>Empty list if no bets</returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.NormalizePrice(System.Decimal)">
+      <summary>
+              Convert price to near acceptable by fair
+            </summary>
+      <param name="price">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.UpdateBetsStates(System.Collections.Generic.List{ExchangeAPI.Data.Order})">
+      <summary>
+              Update specified bets about matching information
+            </summary>
+      <param name="orders">Orders to update</param>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.GetSpread(System.Decimal,System.Decimal)">
+      <summary>
+              Order of odds is not significant here
+            </summary>
+      <param name="back">
+      </param>
+      <param name="lay">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.GetSpread(ExchangeAPI.Data.RunnerData)">
+      <summary>
+              Get spreads for best odds of specified runner
+            </summary>
+      <param name="runner">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.WoM(ExchangeAPI.Data.RunnerData)">
+      <summary>
+              Weight of the money, calculated by special formula
+              It can be from 0 to 100 with + or - depends on direction. Value means bigger part percent.
+            </summary>
+      <param name="runner">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.GetOvertakenPrice(System.Decimal,ExchangeAPI.Data.BetSide,System.Int32)">
+      <summary>
+              Get a price, overtaken by specified number of ticks
+            </summary>
+      <param name="price">Source price, if 0, then mim/max available on Fair depend on side is used</param>
+      <param name="side">Shift direction: Back - to left, Lay - to right</param>
+      <param name="ticks">Number of ticks to shift</param>
+      <returns>Destination price</returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.PriceToString(System.Decimal)">
+      <summary>
+              To show default number of digits after point for this kind of price
+            </summary>
+      <param name="price">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.GetAccountFunds">
+      <summary>
+      </summary>
+      <returns>Current available balance and current balance</returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.GetAccountStatements(ExchangeAPI.Data.StatementFilter)">
+      <summary>
+              Get profit, loss, withdrawal and deposit statements
+            </summary>
+      <param name="filter">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.GetMarketsProfitAndLoss(System.Collections.Generic.List{ExchangeAPI.Data.MarketData})">
+      <summary>
+              Fill RunnerData IfWin, IfLoss for several markets
+              Betfair: Only odds (MarketBettingType = ODDS) markets  are implemented, markets of other types are silently ignored.
+            </summary>
+      <param name="markets">
+      </param>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.ReservedPrice(ExchangeAPI.Data.BetSide)">
+      <summary>
+              Price used for reserved bets (help bets for low bets)
+            </summary>
+      <param name="side">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.LiveResult(System.Object)">
+      <summary>
+              Get live result (if available) for event
+            </summary>
+      <param name="eventId">
+      </param>
+      <returns>Exception if result is not available</returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.ReverseSide(ExchangeAPI.Data.BetSide)">
+      <summary>
+              Side, opposite of bet side
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.Login(System.String,System.String,System.String)">
+      <summary>
+              Login to exchange
+            </summary>
+      <param name="userName">
+      </param>
+      <param name="password">
+      </param>
+      <param name="appKey">Application key is for Betfair API-NG</param>
+      <returns>true if success, throw exception with error text if fail</returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.Logout">
+      <summary>
+              Logout from exchange
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.GetNavigationTree(System.Collections.Generic.IEnumerable{System.Object})">
+      <summary>
+              Return tree, where on top level are sports types and without runners in markets
+            </summary>
+      <param name="eventFilter">Limit output with specified events. For Betfair it is filter by event type ids</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.GetTopLevelEvents(System.String)">
+      <summary>
+              Get Id's of top level events (kinds of sport)
+              For sport betting it should sounds like GetSports, but not only sport events may be available
+            </summary>
+      <returns>Collection of Event's where Id and Name only filled</returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.GetMarkets(ExchangeAPI.Data.MarketFilter)">
+      <summary>
+              Get list of markets by markets filter
+            </summary>
+      <param name="marketFilter">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.UpdateMarkets(System.Collections.Generic.IList{ExchangeAPI.Data.MarketData},ExchangeAPI.Data.MarketFilter)">
+      <summary>
+              Update list of markets by specified conditions. Add new markets, update TotalMatched and calculate new Speed
+              (Liquidity), set IsUpdated for existing markets
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.FillMarketData(ExchangeAPI.Data.MarketData)">
+      <summary>
+              Fill runners and other information about market
+            </summary>
+      <param name="marketData">
+      </param>
+    </member>
+    <member name="P:ExchangeAPI.ExchangeProvider.Currency">
+      <summary>
+              Logined account currency
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.ExchangeProvider.CurrencySign">
+      <summary>
+              Sign of user's account <see cref="P:ExchangeAPI.ExchangeProvider.Currency" /></summary>
+    </member>
+    <member name="P:ExchangeAPI.ExchangeProvider.BaseCommission">
+      <summary>
+              Retained commission. Temporally (?) allow setter as soon Betfair doesn't returns RetainedCommission correctly
+            </summary>
+    </member>
+    <member name="P:ExchangeAPI.ExchangeProvider.DecreasingKef">
+      <summary>
+              Profit factor (to apply commission)
+            </summary>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.GetMarketsPrices(System.Collections.Generic.List{ExchangeAPI.Data.MarketData},ExchangeAPI.Data.PricesFilter)">
+      <summary>
+              Get best prices for list of markets
+            </summary>
+      <param name="markets">
+      </param>
+      <param name="pricesFilter">
+      </param>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.GetMarketPrices(ExchangeAPI.Data.MarketData,ExchangeAPI.Data.PricesFilter)">
+      <summary>
+              Get best prices for market, adding runner if not exist and update market book information (without Event information)
+            </summary>
+      <param name="marketData">
+      </param>
+      <param name="pricesFilter">
+      </param>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.UpdateMarketsStatus(System.Collections.Generic.IList{ExchangeAPI.Data.MarketData})">
+      <summary>
+              Update markets status information only
+            </summary>
+      <param name="markets">
+      </param>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.IsPriceCompetitive(ExchangeAPI.Data.BetSide,System.Decimal,System.Decimal)">
+      <summary>
+              Flag about is 1st part more competitive for specified side
+            </summary>
+      <param name="side">
+      </param>
+      <param name="price">
+      </param>
+      <param name="thanPrice">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.PlaceBets(System.Object,System.Collections.Generic.List{ExchangeAPI.Data.Order},System.String,System.Boolean)">
+      <summary>
+              Place bets for specific market
+            </summary>
+      <param name="marketId">Used for Betfair only</param>
+      <param name="bets">
+      </param>
+      <param name="customerStrategyRef">
+              An optional reference customers can use to specify which strategy has sent the order.
+              The reference will be returned on order change messages through the stream API. The string is limited to 15
+              characters. If an empty string is provided it will be treated as null.
+            </param>
+      <param name="async">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.PlaceBet(ExchangeAPI.Data.MarketData,ExchangeAPI.Data.Order,System.String,System.Boolean)">
+      <summary>
+              Place bet for specific market
+            </summary>
+      <param name="market">
+      </param>
+      <param name="bet">
+      </param>
+      <param name="customerStrategyRef">
+              An optional reference customers can use to specify which strategy has sent the order.
+              The reference will be returned on order change messages through the stream API. The string is limited to 15
+              characters. If an empty string is provided it will be treated as null.
+            </param>
+      <param name="async">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.CancelBets(ExchangeAPI.Data.BetFilter)">
+      <summary>
+              Cancel specified bets by Ids on specific market
+            </summary>
+      <param name="betFilter">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.CancelBets(System.Collections.Generic.IList{ExchangeAPI.Data.Order})">
+      <summary>
+              Cancel specified bets with filling their SizeRemaining as sizeCancelled
+            </summary>
+      <param name="bets">For Betfair bets[0] should store marketId</param>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.CancelBet(ExchangeAPI.Data.Order)">
+      <summary>
+              Cancel specified bet with filling their SizeRemaining as sizeCancelled
+            </summary>
+      <param name="bet">
+      </param>
+      <returns>For Betfair bets[0] should store marketId</returns>
+    </member>
+    <member name="M:ExchangeAPI.ExchangeProvider.ModifyBets(System.Object,System.Collections.Generic.List{ExchangeAPI.Data.Order},System.String)">
+      <summary>
+              Modify bets for new price/new size/new persistence type
+              If size is increased, then a new bet will be created to keep the query for existing bet
+            </summary>
+      <param name="marketId">
+      </param>
+      <param name="bets">
+      </param>
+      <param name="strategy">
+      </param>
+    </member>
+    <member name="P:PinnacleWrapper.Data.PeriodType.Status">
+      <summary>
+            1 - online, period is open for betting 2 - offline, period is not open for betting
+            </summary>
+    </member>
+    <member name="F:PinnacleWrapper.Enums.Status.Open">
+      <summary>
+            This is the starting status of a game. It means that the lines are open for betting.
+            </summary>
+    </member>
+    <member name="F:PinnacleWrapper.Enums.Status.LowerMaximum">
+      <summary>
+            This status indicates that one or more lines have a red circle (a lower maximum bet amount).
+            </summary>
+    </member>
+    <member name="F:PinnacleWrapper.Enums.Status.Unavailable">
+      <summary>
+            This status indicates that the lines are temporarily unavailable for betting.
+            </summary>
+    </member>
+    <member name="F:PinnacleWrapper.Enums.Status.Cancelled">
+      <summary>
+            When a game is cancelled all bets on the game are refunded and the status becomes canceled.
+            </summary>
+    </member>
+  </members>
+</doc>
