@@ -1,0 +1,7 @@
+C:\ProjetosC#\Seção 10 Curso\Herança\herança\herança\bin\Debug\herança.exe.config
+C:\ProjetosC#\Seção 10 Curso\Herança\herança\herança\bin\Debug\herança.exe
+C:\ProjetosC#\Seção 10 Curso\Herança\herança\herança\bin\Debug\herança.pdb
+C:\ProjetosC#\Seção 10 Curso\Herança\herança\herança\obj\Debug\herança.csproj.AssemblyReference.cache
+C:\ProjetosC#\Seção 10 Curso\Herança\herança\herança\obj\Debug\herança.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Seção 10 Curso\Herança\herança\herança\obj\Debug\herança.exe
+C:\ProjetosC#\Seção 10 Curso\Herança\herança\herança\obj\Debug\herança.pdb
